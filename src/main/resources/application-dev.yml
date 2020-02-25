@@ -1,9 +1,17 @@
+server:
+  port: 87610
+
 spring:
-  port: 8082
-  profile:
-    active: dev
-  application:
-    name: Alis software
-  cloud:
-    config:
-      uri: http://localhost:8082
+  profiles.active: dev
+
+eureka:
+  client:
+    register-with-eureka: false
+  fetch-registry: false
+
+logging:
+  level:
+    com: 
+      netflix:
+        eureka: OFF
+        discovery: OFF

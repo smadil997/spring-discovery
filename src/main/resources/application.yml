@@ -1,6 +1,9 @@
 server:
   port: 8761
 
+spring:
+  profiles.active: local
+
 eureka:
   client:
     register-with-eureka: false

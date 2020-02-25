@@ -1,0 +1,17 @@
+server:
+  port: 87612
+
+spring:
+  profiles.active: test
+
+eureka:
+  client:
+    register-with-eureka: false
+  fetch-registry: false
+
+logging:
+  level:
+    com: 
+      netflix:
+        eureka: OFF
+        discovery: OFF

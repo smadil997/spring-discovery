@@ -9,6 +9,7 @@ public class SpringDiscoveryApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringDiscoveryApplication.class, args);
 		
+		
 	}
 
 }

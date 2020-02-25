@@ -1,0 +1,9 @@
+spring:
+  port: 8082
+  profile:
+    active: dev
+  application:
+    name: Alis software
+  cloud:
+    config:
+      uri: http://localhost:8082
